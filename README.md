@@ -69,6 +69,7 @@ Once the following are properly configured, the application can be run by callin
 The terminal will display the progress in the form of text. Once the calculation is finished, the following should appear:
 
 ======End of Program=====
+
 Time of execution: ______ minutes
 
 
