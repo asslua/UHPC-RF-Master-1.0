@@ -20,3 +20,12 @@ For the Perfectly-Stirred Reactor Module, please cite:
 # Authors
 
 UHPC-RF-Master-1.0 was created by The Ultra-High-Combustion Laboratory at The Hong Kong Polytechnic University, with significant contributions from Dr Mingrui WANG and Prof Song CHENG, and technical inputs from Adrian Lua.
+
+# Installation 
+
+# Applications
+
+For the Constant-Volume Reactor Module, the application is "IDT_calculation_CV" and can be found in app/ConstantVolume. 
+For the Perfectly-Stirred Reactor Module, the application is "IDT_calculation_PSR" and can be found in app/PSR.
+
+Examples for the applications can be found in <code>example</code>. 
