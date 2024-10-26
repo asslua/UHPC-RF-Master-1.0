@@ -25,7 +25,8 @@ UHPC-RF-Master-1.0 was created by The Ultra-High-Combustion Laboratory at The Ho
 
 # Applications
 
-For the Constant-Volume Reactor Module, the application is <code>IDT_calculation_CV</code> and can be found in <code>app/ConstantVolume</code>. 
+For the Constant-Volume Reactor Module, the application is <code>IDT_calculation_CV</code> and can be found in <code>app/ConstantVolume</code>.
+
 For the Perfectly-Stirred Reactor Module, the application is <code>IDT_calculation_PSR</code> and can be found in <code>app/PSR</code>.
 
 # How to Run 
@@ -33,7 +34,9 @@ For the Perfectly-Stirred Reactor Module, the application is <code>IDT_calculati
 Examples for the applications can be found in <code>example</code>. For your calculations, create your own folder with the same set of files as the example files. 
 
 Inside each example folder is an input text file <code>input.txt</code> and a shell script <code>run.sh</code>. 
+
 <code>input.txt</code> is for specifying inputs to the simulation. 
+
 <code>run.sh</code> is for running the simulation. 
 
 *Modifying the Input File*
@@ -46,15 +49,18 @@ If you wish to run multiple cases at once, write your next input at the next lin
 Lines 2-6 are information regarding your computer. Modify as necessary.
 
 To specify the path of the application in your computer, modify the line as follows:
+
 <code>EXEC=/directory_of_application/IDT_calculation_(modulename)</code>
 
 To specify the path of your input file, modify the line as follows:
+
 <code>INPUT=/directory_of_input_file/input.txt</code>
 
 To specify the path of your output, modify the line as follows:
+
 <code>OUTFILE=/directory_of_desired_output_files/results/result.out</code>
 
-*Converting <code>run.sh</code> to UNIX*
+*Converting <code>run.sh</code> to UNIX* /n
 
 Before running, convert <code>run.sh</code> to UNIX by calling <code>dos2unix run.sh</code>
 
