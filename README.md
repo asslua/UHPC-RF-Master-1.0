@@ -55,6 +55,7 @@ To specify the path of your output, modify the line as follows:
 <code>OUTFILE=/directory_of_desired_output_files/results/result.out</code>
 
 *Converting <code>run.sh</code> to UNIX*
+
 Before running, convert <code>run.sh</code> to UNIX by calling <code>dos2unix run.sh</code>
 
 *Ensure proper permissions*
