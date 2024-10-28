@@ -21,7 +21,15 @@ For the Perfectly-Stirred Reactor Module, please cite:
 
 UHPC-RF-Master-1.0 was created by The Ultra-High-Combustion Laboratory at The Hong Kong Polytechnic University, with significant contributions from Dr Mingrui WANG and Prof Song CHENG, and technical inputs from Adrian Lua.
 
-# Installation 
+# Installation
+
+The executable was packaged in Linux, and hence the application must be run on linux. The application can however either be downloaded on other systems such as Windows or MacOS and transferred to Linux or be directly downloaded from Linux. 
+
+To install, simply clone this Github repository into your computer by typing the following in the command line:
+
+<code>git clone https://github.com/asslua/UHPC-RF-Master-1.0</code>
+
+The <code>app</code> and <code>example</code> folders will be downloaded on the local computer and can be run with the instructions below.
 
 # Applications
 
@@ -78,15 +86,8 @@ The terminal will display the progress in the form of text. Once the calculation
 
 Time of execution: ______ minutes
 
-# Installation
+# License
 
-The executable was packaged in Linux, and hence the application must be run on linux. The application can however either be downloaded on other systems such as Windows or MacOS and transferred to Linux or be directly downloaded from Linux. 
-
-To install, simply clone this Github repository into your computer by typing the following in the command line:
-
-git clone https://github.com/asslua/UHPC-RF-Master-1.0
-
-The <code>app</code> and <code>example</code> folders will be downloaded on the local computer and can be run with the instructions above.
 
 
 
