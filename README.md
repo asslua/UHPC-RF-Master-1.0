@@ -78,7 +78,15 @@ The terminal will display the progress in the form of text. Once the calculation
 
 Time of execution: ______ minutes
 
+# Installation
 
+The executable was packaged in Linux, and hence the application must be run on linux. The application can however either be downloaded on other systems such as Windows or MacOS and transferred to Linux or be directly downloaded from Linux. 
+
+To install, simply clone this Github repository into your computer by typing the following in the command line:
+
+git clone https://github.com/asslua/UHPC-RF-Master-1.0
+
+The <code>app</code> and <code>example</code> folders will be downloaded on the local computer and can be run with the instructions above.
 
 
 
